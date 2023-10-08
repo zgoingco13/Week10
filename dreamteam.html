@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Week 10</title>
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
+</head>
+<body class="bg-info container">
+        <div id="main-container" class="container pt-2 pb-5 bg-info-subtle text-center">
+            <img
+            src="dreamTeamBanner.jpeg" alt="hot pink banner displaying DREAM TEAM in white and pink"
+            class="img-fluid"
+            width="1000"
+            >
+        </div>
+    <div class="card">
+        <div class="card-body">
+            <div class="row">
+                <div class="col-sm">
+                    <div class="form-group">
+                        <label form="new-name">Dream Player Name</label>
+                        <input type="text" class="form-control" id="new-name" placeholder="Player Name">
+                    </div>
+                </div>
+                <div class="col-sm">
+                    <div class="form-group">
+                        <label form="new-powers">Powers</label>
+                        <input type="text" class="form-control" id="new-powers" placeholder="Powers">
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm">
+                    <div class="form-group">
+                        <label form="new-birthdate">Birthdate</label>
+                        <input type="date" class="form-control" id="new-birthdate" placeholder="Birthdate">
+                    </div>
+                </div>
+            </div>
+            <div>
+                <button id="add" class="btn btn-info form-control">Create</button>
+            </div>
+        </div>
+    </div>
+    <table id="list" class="table table-primary table-hover">
+        <tr>
+            <th>Dream Players</th>
+            <th>Powers</th>
+            <th>Birthdate</th>
+            <th>Actions</th>
+        </tr>
+        <tr>
+            <td>Tooth Fairy</td>
+            <td>Money maker</td>
+            <td>02/28/1200</td>
+        </tr>
+        <tr>
+            <td>Santa Claus</td>
+            <td>Gift giver</td>
+            <td>12/25/1087</td>
+        </tr>
+        <tr>
+            <td>Peter Pan</td>
+            <td>Fantasy fairy</td>
+            <td>04/20/1912</td>
+        </tr>
+        <tr>
+            <td>Clifford</td>
+            <td>Red rover</td>
+            <td>02/14/1961</td>
+        </tr>
+    </table>
+
+    <script src="dreamteam.js"></script>
+    <script src="node_modules/jquery/dist/jquery.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+    
+</body>
+</html>
